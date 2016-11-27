@@ -42,7 +42,7 @@ Beautiful Soup
 ```
 ## Authors
 
-* **Grzegorz M** - *Creator work* - [SDPI-kzk-simple-output](https://github.com/grzesjam/SDPI-kzk-simple-output)
+* **Grzegorz M** - *Creator* - [SDPI-kzk-simple-output](https://github.com/grzesjam/SDPI-kzk-simple-output)
 
 See also the list of [contributors](https://github.com/grzesjam/SDPI-kzk-simple-output/graphs/contributors) who participated in this project.
 
