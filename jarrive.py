@@ -34,19 +34,3 @@ for line in likea:
         print('"przystanek'+str(nu)+'": "'+locl.splitlines()[2]+'", "czas'+str(nu)+'": "' + str(dodane.strftime("%H"))+":"+str(dodane.strftime("%M"))+'",')
     nu += 1
 print ('"liczba": "'+ str(nu-1) + '"}}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
