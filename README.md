@@ -1,5 +1,8 @@
+# SDPI kzkgop to simple output
+
 SDPI KZKGOP is tracking system for delays in city buses in Silesia (Without any API).
 
+Pythons scripts which give easy to use API for any applications or just your own personal usage.
 
 ## Usage
 SimOut.py - Simple output of delays 
