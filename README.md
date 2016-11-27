@@ -49,4 +49,4 @@ See also the list of [contributors](https://github.com/grzesjam/SDPI-kzk-simple-
 ## License
 
 This project is licensed under the **Mozilla Public License Version 2.0**
-- see the [LICENSE.md](LICENSE.md) file for details
+- see the [LICENSE.md](LICENSE) file for details
