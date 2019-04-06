@@ -6,7 +6,7 @@ autobus = dict()
 licz = 0
 red = ''
 nrlinii = ''
-url = "http://sdip.kzkgop.pl/web/ml/line/"
+url = "http://sdip.kzkgop.com.pl/web/ml/line/"
 i = 0
 print ('{ "linie" :')
 
@@ -24,17 +24,18 @@ for line in liki:
 
 for line in lika:
     href = (line.get('href'))
-    nron = (href[13:])
-    red = (red+"\n"+nron)
+    if href is not None:
+        nron = (href[13:])
+        red = (red+"\n"+nron)
 
 
-redd = red.rsplit('\n', 9)[0].split('\n', 3)[-1]
+redd = red.rsplit('\n', 7)[0].split('\n', 3)[-1]
 nrlini = nrlinii.split('\n', 1)[-1]
 
 
-while (i < licz):
+while i < licz:
 
-    if(i == 0):
+    if i == 0:
         print ("{")
     print ('"l'+str(i+1)+'" : ')
     print ('{ "linia": "'+nrlini.splitlines()[i]+'", "trans": "'+redd.splitlines()[i]+'"}, ')
