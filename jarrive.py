@@ -9,7 +9,7 @@ arg = str(sys.argv[1])
 now = datetime.datetime.now()
 
 
-with urllib.request.urlopen("http://sdip.kzkgop.pl/web/ml/timetable/journey/"+arg) as response:
+with urllib.request.urlopen("http://sdip.metropoliaztm.pl/web/ml/timetable/journey/"+arg) as response:
     respo = response.read()
     soupa = BeautifulSoup(str(respo, "utf-8"), "html.parser")
     likea = (soupa.findAll('tr', style=False))

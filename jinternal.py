@@ -6,7 +6,7 @@ autobus = dict()
 licz = 0
 red = ''
 nrlinii = ''
-url = "http://sdip.kzkgop.com.pl/web/ml/line/"
+url = "http://sdip.metropoliaztm.pl/web/ml/line/"
 i = 0
 print ('{ "linie" :')
 

@@ -9,7 +9,7 @@ autobus = dict()
 licz = 0
 red = ''
 nrlinii = ''
-url = "http://sdip.kzkgop.pl/web/ml/line/"
+url = "http://sdip.metropoliaztm.pl/web/ml/line/"
 i = 0
 arg = str(sys.argv[1])
 
@@ -63,7 +63,7 @@ vehicle = dict()
 soup = dict()
 
 
-url = "http://sdip.kzkgop.pl/web/map/vehicles/gj/A?route_id="+argu
+url = "http://sdip.metropoliaztm.pl/web/map/vehicles/gj/A?route_id="+argu
 #print (url)
 with urllib.request.urlopen(url) as response:
     html = response.read()
@@ -75,8 +75,8 @@ islong = (len(data['features']))
 if (islong >= 1):
     for i in range(0, len(data['features'])):
         autobusy[i] = data['features'][i]['id']
-        #print ("http://sdip.kzkgop.pl/web/ml/map/vehicles/"+str(autobusy[i]))
-        urlbus[i] = "http://sdip.kzkgop.pl/web/ml/map/vehicles/"+str(autobusy[i])
+        #print ("http://sdip.metropoliaztm.pl/web/ml/map/vehicles/"+str(autobusy[i]))
+        urlbus[i] = "http://sdip.metropoliaztm.pl/web/ml/map/vehicles/"+str(autobusy[i])
 
 else:
     print ("False")
