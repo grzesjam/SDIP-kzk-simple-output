@@ -1,4 +1,4 @@
-# SDPI kzkgop to simple output
+# SDIP kzkgop to simple output
 
 SDPI KZKGOP is tracking system for delays in city buses in Silesia (Without any API).
 
