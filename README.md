@@ -1,6 +1,6 @@
 # SDIP kzkgop to simple output
 
-SDPI KZKGOP is tracking system for delays in city buses in Silesia (Without any API).
+SDIP KZKGOP is tracking system for delays in city buses in Silesia (Without any API).
 
 Pythons scripts which give easy to use API for any applications or just your own personal usage.
 
@@ -42,9 +42,9 @@ Beautiful Soup
 ```
 ## Authors
 
-* **Grzegorz M** - *Creator* - [SDPI-kzk-simple-output](https://github.com/grzesjam/SDPI-kzk-simple-output)
+* **Grzegorz M** - *Creator* - [SDIP-kzk-simple-output](https://github.com/grzesjam/SDIP-kzk-simple-output)
 
-See also the list of [contributors](https://github.com/grzesjam/SDPI-kzk-simple-output/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/grzesjam/SDIP-kzk-simple-output/graphs/contributors) who participated in this project.
 
 ## License
 
