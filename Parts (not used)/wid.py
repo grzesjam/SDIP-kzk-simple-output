@@ -23,11 +23,14 @@ for line in liki:
 
 for line in lika:
     href = (line.get('href'))
-    nron = (href[13:])
+    try:
+        nron = (href[13:])
+    except TypeError:
+        continue
     red = (red+"\n"+nron)
 
 
-redd = red.rsplit('\n', 9)[0].split('\n', 3)[-1]
+redd = red.rsplit('\n', 7)[0].split('\n', 3)[-1]
 nrlini = nrlinii.split('\n', 1)[-1]
 
 

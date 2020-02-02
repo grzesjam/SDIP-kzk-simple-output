@@ -29,7 +29,10 @@ for line in liki:
 for line in lika:
     href = (line.get('href'))
     if href is not None:
-        nron = (href[13:])
+        try:
+            nron = (href[13:])
+        except TypeError:
+            continue
         red = (red+"\n"+nron)
 
 
