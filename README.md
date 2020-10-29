@@ -1,4 +1,4 @@
-# Abandoned - Moved to [rewriten verion in flask](https://github.com/grzesjam/SDIP-ZTM-parser)
+# Abandoned - Moved to [rewritten version in flask](https://github.com/grzesjam/SDIP-ZTM-parser)
 
 # SDIP kzkgop to simple output
 
